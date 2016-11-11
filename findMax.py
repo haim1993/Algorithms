@@ -1,4 +1,3 @@
-
 def findMax(array):
     max = array[0]
     for i in array:
