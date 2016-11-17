@@ -16,7 +16,7 @@ public class BinToDec {
 		int decimal = 0, power = 0;
 		while (num != 0) {
 			decimal = decimal + (int) ((num % 10) * Math.pow(2, power++));
-			num = num / 10;
+			num /= 10;
 		}
 		return decimal;
 	}
